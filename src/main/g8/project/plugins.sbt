@@ -1,3 +1,3 @@
-addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "$sbt_scalafmt_version$")
+addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.0.0")
 addSbtPlugin("com.typesafe.sbt" % "sbt-web" % "1.4.3")
-addSbtPlugin("ba.sake" % "sbt-hepek" % "$sbt_hepek_version$")
+addSbtPlugin("ba.sake" % "sbt-hepek" % "0.1.2")
