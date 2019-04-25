@@ -8,7 +8,6 @@ lazy val root = (project in file("."))
   .settings(
     organization := "$organization$",
     name := "$name;format="normalize"$",
-    description := "$description$",
     version := "$version$",
     libraryDependencies ++= Seq(scalaTest, hepekLib),
     resolvers += Resolver.sonatypeRepo("snapshots"),
